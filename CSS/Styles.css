@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Estilos para la sección de definiciones */
+dl {
+    margin: 0;
+}
+
+dt {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+dd {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Estilos para la sección de listas ordenadas */
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-top: 10px;
+}
+
+blockquote {
+    margin: 10px 0;
+    padding-left: 20px;
+    border-left: 2px solid #333;
+    font-style: italic;
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
